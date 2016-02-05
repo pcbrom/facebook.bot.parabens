@@ -16,7 +16,7 @@
 rm(list=ls(all=T))
 
 # DEFINIR PASTA DE TRABALHO Crtl + Shift + H
-setwd("~/Dropbox/Biblioteca R")
+setwd("SUA_PASTA_DE_TRABALHO")
 
 # INSTALAR E INVOCAR A BIBLIOTECA
 require(RSelenium)
@@ -41,12 +41,12 @@ url = 'https://www.facebook.com/'; remDr$sendKeysToActiveElement(list(url, key =
 ##################################################################################
 
 # ENCONTRAR O ELEMENTO 'EMAIL'
-email.face = "SEU_EMAIL_DO_FACE"
+email.face = "SEU_EMAIL_DO_FACE" # INSIRA O SE EMAIL
 webElem = remDr$findElement(using = 'xpath', "//input[@id='email']")$sendKeysToElement(list(email.face))
 Sys.sleep(1)
 
 # ENCONTRAR O ELEMENTO 'PASS'
-senha.face = "SUA_SENHA_DO_FACE"
+senha.face = "SUA_SENHA_DO_FACE" # INSIRA A SUA SENHA
 webElem = remDr$findElement(using = 'xpath', "//input[@id='pass']")$sendKeysToElement(list(senha.face))
 Sys.sleep(1)
 
