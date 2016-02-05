@@ -19,9 +19,13 @@ Está pronto.
 
 Vamos só interpretar o passo 02 para ficar mais claro o que foi realizado:
 
-i) 00 12 -> Diariamente, às 12:00h será executado
-ii) * * * root -> Pelo usuário root
-iii) LOCAL_DO_ARQUIVO/face.bot.parabens.sh -> O script face.bot.parabens.sh
+  i) 00 12 -> Diariamente, às 12:00h será executado
+    i.a) 00 indica os minutos.
+    i.b) 12 indica as horas.
+    
+  ii) * * * root -> Pelo usuário root
+  
+  iii) LOCAL_DO_ARQUIVO/face.bot.parabens.sh -> O script face.bot.parabens.sh
 
 
 ### Windows: Use "face.bot.parabens.bat"
