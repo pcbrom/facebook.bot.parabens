@@ -4,11 +4,27 @@ Foi utulizado esta versão do RSelenium: http://ropensci.github.io/RSelenium/
 
 O script está comentado e detalhado.
 
-Para deixar rodando de modo automático utilize o arquivo "face.bot.parabens.bat".
+Para deixar rodando de modo automático utilize o arquivo "face.bot.parabens.bat", se Windows ou o "face.bot.parabens.sh", se Linux.
 
-### Como automatizar a execução de "face.bot.parabens.bat"
 
-##### Windows:
+### Linux =D: Use "face.bot.parabens.sh"
+
+01) Abra o terminal e digite:
+crontab -e
+
+02) Escolha o editor e insira a seguinte linha:
+00 12 * * * root LOCAL_DO_ARQUIVO/face.bot.parabens.sh
+
+Está pronto.
+
+Vamos só interpretar o passo 02 para ficar mais claro o que foi realizado:
+
+i) 00 12 -> Diariamente, às 12:00h será executado
+ii) * * * root -> Pelo usuário root
+iii) LOCAL_DO_ARQUIVO/face.bot.parabens.sh -> O script face.bot.parabens.sh
+
+
+### Windows: Use "face.bot.parabens.bat"
 
 Utilize o Agendador de tarefas, encontrado no Painel de controle.
 
