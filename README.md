@@ -4,7 +4,7 @@ Foi utulizado esta versão do RSelenium: http://ropensci.github.io/RSelenium/
 
 O script está comentado e detalhado.
 
-Para deixar rodando de modo automético utilize o arquivo "face.bot.parabens.bat".
+Para deixar rodando de modo automático utilize o arquivo "face.bot.parabens.bat".
 
 ### Como automatizar a execução de "face.bot.parabens.bat"
 
