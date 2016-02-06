@@ -13,7 +13,7 @@ Para deixar rodando de modo automático utilize o arquivo "face.bot.parabens.bat
 crontab -e
 
 02) Escolha o editor e insira a seguinte linha:
-00 12 * * * root LOCAL_DO_ARQUIVO/face.bot.parabens.sh
+00 12 * * * sh LOCAL_DO_ARQUIVO/face.bot.parabens.sh
 
 Está pronto.
 
@@ -23,9 +23,7 @@ Vamos só interpretar o passo 02 para ficar mais claro o que foi realizado:
     i.a) 00 indica os minutos.
     i.b) 12 indica as horas.
     
-  ii) * * * root -> Pelo usuário root
-  
-  iii) LOCAL_DO_ARQUIVO/face.bot.parabens.sh -> O script face.bot.parabens.sh
+  ii) LOCAL_DO_ARQUIVO/face.bot.parabens.sh -> O script face.bot.parabens.sh
 
 
 ### Windows: Use "face.bot.parabens.bat"
