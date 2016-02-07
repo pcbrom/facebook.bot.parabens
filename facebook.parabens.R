@@ -121,7 +121,7 @@ frases.txt = c(
   "É época de festa, alegrias e muita diversão!",
   "Comemore com muita alegria e muitas risadas!",
   "Desejo um ótimo aniversário e muita saúde!",
-  "Célebre este dia especial com muito amor e união. Esteja com a sua família",
+  "Celebre este dia especial com muito amor e união. Esteja com a sua família",
   "Inspire sempre a motivação na vida das pessoas!"
 )
 
