@@ -28,7 +28,7 @@ RSelenium::checkForServer()
 RSelenium::startServer()
 
 # AJUSTAR O WEBDRIVER
-remDr = remoteDriver(browserName = "firefox"); Sys.sleep(1)
+remDr = remoteDriver(browserName = "firefox"); Sys.sleep(2)
 
 # NAVEGACAO
 remDr$open(silent = T); Sys.sleep(5)
