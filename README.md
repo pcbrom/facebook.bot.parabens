@@ -6,6 +6,7 @@ O script está comentado e detalhado.
 
 Para deixar rodando de modo automático utilize o arquivo "face.bot.parabens.bat", se Windows ou o "face.bot.parabens.sh", se Linux.
 
+[Assista o vídeo de seu funcionamento.](https://youtu.be/5pub819IREA)
 
 ### Linux =D: Use "face.bot.parabens.sh"
 
