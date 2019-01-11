@@ -1,8 +1,7 @@
 ##################################################################################
 # APLICATIVO DE PARABENS NO FACEBOOK
 # AUTOR: PEDRO CARVALHO BROM
-# EMAIL: supermetrica@gmail.com
-# FACEBOOK: www.facebook.com/pedraodeexatas
+# EMAIL: pcbrom@gmail.com
 # CV LATTES: lattes.cnpq.br/0154064396756002
 # GITHUB: https://github.com/pcbrom
 ##################################################################################
